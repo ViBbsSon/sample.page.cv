@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Webpage Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #cecece;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #8B4513;
+        }
+        nav a {
+            margin-left: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .login {
+            color: #8B4513;
+        }
+        .promo-banner {
+            background-color: #d6d290;
+            color: rgb(45, 17, 17);
+            padding: 40px 20px;
+            font-size: 35px;
+            text-align: center;
+        }
+        .photo-grid {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;;
+            border-radius: 20px;
+            color: #070706;
+        }
+        .photo-item {
+            width: 23%;
+            background-color: rgb(234, 231, 231);
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main-content {
+            display: flex;
+            padding: 20px;
+            background-color: #d6d290;       
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #bcc480;
+            color: rgb(102, 26, 26);
+            padding: 10px;
+        }
+        .content {
+            width: 60%;
+            padding:0 20px;
+            font-size: larger;
+        }
+        .right-sidebar {
+            width: 20%;
+        }
+        .right-box {
+            background-color: #e1dca6;
+            color: rgb(75, 72, 21);
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 100%;
+            width: 50%;
+        }
+        
+        footer {
+            background-color: #8d8717;
+            color: rgb(99, 71, 71);
+            text-align: center;
+            padding: 20px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="MENU">MENU</div>
+            <nav>
+                <a href="#">HOMEPAGE</a>
+                <a href="#">PRODUCTS</a>
+                <a href="#">ABOUT US</a>
+                <a href="#">CONTACTS</a>
+                <a href="#" class="login">LOG-IN / REGISTRATION</a>
+            </nav>
+        </header>
+        
+        <div class="promo-banner">
+           EN DECO
+        </div>
+        
+        <div class="photo-grid">
+            <div class="photo-item">photo 1</div>
+            <div class="photo-item">photo 2</div>
+            <div class="photo-item">photo 3</div>
+            <div class="photo-item">photo 4</div>
+        </div>
+        <ul>
+            <div class="main-content">
+                <div class="sidebar">
+                    <div>~lights</div>
+                    <div>~backdrop</div>
+                    <div>~invitation</div>
+                    <div>~welcome-board</div>
+                    <div>~tables/chair</div>
+                    <div>~photobooth</div>
+                    <div>~07photography</div>
+                    <div>~cake</div>
+                    <div>ALL IN ONE</div>
+                </div>
+        </ul>
+            <div class="content">
+                <h2>WE</h2>
+                <p>highlight your credentials</p>
+                <h2>BEAUTIFUL</h2>
+                <p>end with something memorable</p>
+            </div>
+            <div class="right-sidebar">
+                <div class="right-box">THIS</div>
+                <div class="right-box">IS</div>
+                <div class="right-box">YOUR</div>
+                <div class="right-box">BEST</div>
+                <div class="right-box">SERVICE</div>
+            </div>
+        </div>
+        
+        <footer>
+           ~ THANK YOU ~
+        </footer>
+    </div>
+</body>
+</html>
